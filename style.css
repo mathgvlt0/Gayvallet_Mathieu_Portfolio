@@ -1,0 +1,154 @@
+body{
+  background-color: black;
+  width: 375px;
+  height: 1330px;
+  display: flex;
+    align-items: center;
+  flex-direction: column;
+  font-family: 'Space Grotesk';
+}
+
+header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.firstPara{
+  padding-bottom: 10px;
+  color: white;
+  font-size: 24px;
+  padding-left: 22px;
+}
+
+.icon{
+  padding-left: 10px;
+}
+
+
+.icons{
+  padding-left: 10px;
+}
+
+.imgProfile{
+  margin-top: -100px;
+  width: 174px;
+  height: 383px;
+  flex-shrink: 0;
+}
+
+.imgProfileDesktop{
+  display: none;
+}
+
+.etxt{
+  margin-left: 16px;
+  color: white;
+  width:  400px;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: -1.136px;
+  margin-bottom: -25px;
+}
+
+
+
+.SecondPara{
+  width: 295px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+
+}
+
+
+.contact{
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.286px;
+  text-decoration: none;
+}
+
+
+
+.trait{
+  margin-bottom: 20px;
+  width: 120px; 
+  height: 2px;
+  background-color: rgb(78, 225, 160);
+  
+}
+
+.trait2{
+  margin-top: 80px;
+  width: 343px;
+  height: 1px;
+  flex-shrink: 0;
+  background-color: white ;
+}
+
+.competence{
+  color: white;
+  margin-top: 425px;
+  display: flex;
+  width: 345px;
+  height: 67px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  flex-shrink: 0;
+}
+
+.spanP{
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+ @media (min-width: 750px) {
+  body{
+    display: flex;
+    align-items: center;
+  }
+  nav{
+    flex-direction: row;
+    width: 100vw;
+  }
+  .firstPara{
+    color: white;
+    margin-left: 1360px;
+  }
+  .icon{
+    margin-left: 746px;
+    flex-direction: row;
+  }
+  .imgProfile{
+    display: none;
+  }
+  .imgProfileDesktop{
+    display: inline;
+    width: 500px;
+    margin-left: 100vw;    
+  }
+  .etxt{
+    margin-top: -700px;
+    margin-left: 665px;
+    font-size: 68px;
+    width: 800px;
+  }
+  .Adam:hover{
+    color: rgb(78, 225, 160);                         
+  }
+  .contact:hover{
+    color: rgb(78, 225, 160);                           
+  }
+}
