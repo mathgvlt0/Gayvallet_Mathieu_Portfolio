@@ -30,7 +30,7 @@
 
       <p class="SecondPara">Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love.</p>
 
-      <a href="mailto:email@example.com"  class="contact">CONTACT ME</a>
+      <a href="#contact"  class="contact">CONTACT ME</a>
 
       <span class="trait"></span>
 
@@ -90,7 +90,7 @@
         <h2 class="Project">Projects</h2>
 
         <span class="sp">
-          <a href="">CONTACT ME</a>
+          <a href="#contact" class="cont">CONTACT ME</a>
           <hr class="hr2">  
         </span>
 
@@ -207,6 +207,38 @@
     </main>
 
     <footer>
+
+      <section class="footer" id="contact">
+        <h2 class="footerH2">contact</h2>
+        <p class="footerP">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
+        <form>
+          <span class="inputs">
+            <input type="text" placeholder="name" class="input1" id="input1">
+            <hr class="footerHr" id="Hr1">
+
+            <input type="email" placeholder="Email" class="input2" id="input2">
+            <hr class="footerHr" id="Hr2">
+
+            <input type="text" placeholder="Message" class="input3" id="input3">
+            <hr class="footerHr">
+
+          </span>
+
+          <button type="submit" id="submit" onclick="getValue();">SEND MESSAGE</button>
+          <hr class="btnSpan">
+        </form>
+
+        <hr class="lastHr">
+
+        <p class="last">adamkeyes</p>
+
+        <section class="iconS">
+          <img src="assets/images/icon-github.svg" alt="">
+          <img src="assets/images/icon-custom.svg" alt="" class="icons">
+          <img src="assets/images/icon-linkedin.svg" alt="" class="icons">
+          <img src="assets/images/icon-twitter.svg" alt="" class="icons">
+        </section>
+      </section>
 
     </footer>
     <script type="module" src="/main.js"></script>

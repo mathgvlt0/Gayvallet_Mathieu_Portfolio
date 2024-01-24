@@ -3,6 +3,8 @@
 
 
 body{
+  margin: 0;
+  padding: 0;
   background-color: black;
   width: 375px;
   height: 1330px;
@@ -121,6 +123,10 @@ li{
   list-style-type: none;
 }
 
+main{
+  margin-left: 16px;
+}
+
 .debutProject{
   margin-top: 420px;
   width: 343px;
@@ -152,6 +158,10 @@ a{
   font-family: 'Space Grotesk';
   font-size: 16px;
   letter-spacing: 2.286px;
+}
+
+.cont{
+  margin-bottom: -200px;
 }
 
 .sp{
@@ -215,7 +225,117 @@ a{
   margin-left: 16px;
 }
 
-@media (min-width: 750px) {
+.footer{
+  height: 900px;
+  background-color: #242424;
+  width: 375px;
+  text-align: center;
+  /* padding-right: 42px; */
+  
+}
+
+.footerH2{
+  /* margin-left: 42px; */
+  padding-top: 60px;
+  font-size: 40px;
+  font-family: "Space Grotesk";
+  letter-spacing: -1.136px;
+}
+
+.footerP{
+  width: 343px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 16px;
+}
+
+input{
+  text-decoration: none;
+  /* background-color: transparent; */
+  border-style: none;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
+::placeholder{
+  color: white;
+  margin-left: 24px;
+}
+
+
+
+.input1{
+  margin-bottom: 20px;
+  background-color: transparent;
+  margin-left: 16px;
+  height: 43px;
+  margin-top: 50px;
+}
+.input2{
+  margin-bottom: 20px;
+  background-color: transparent;
+  margin-left: 16px;
+  height: 43px;
+}
+.input3{
+  margin-bottom: 20px;
+  background-color: transparent;
+  margin-left: 16px;
+  height: 107px;
+}
+
+
+.footerHr{
+  width: 343px;
+  height: 1px;
+  border-style: none;
+  background-color: white;
+}
+
+button{
+  margin-top: 32px;
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  border-bottom: #4EE1A0;
+  font-size: 16px;
+  font-family: "space Grotesk";
+  letter-spacing: 2.286px;
+  margin-left: 200px;
+}
+
+.btnSpan{
+  margin-top: 10px;
+  width: 144px;
+  height: 2px;
+  background-color: #4EE1A0;
+  border-style: none;
+  margin-left: 215px;
+}
+
+.lastHr{
+  margin-top: 87px;
+  width: 343px;
+  height: 2px;
+  border-style: none;
+  background-color: white;
+}
+
+
+.last{
+  margin-top: 39px;
+  font-size: 24px;
+}
+
+.iconS{
+  margin-top: 20px;
+
+}
+
+
+@media (min-width: 750px) { 
   body{
     width: 99%;
   }
@@ -260,6 +380,26 @@ a{
     line-height: 28px;
     margin-right: 840px;
   }
+  .contact{
+    margin-right: 1100px;
+  }
+  .trait{
+    margin-right: 1100px;
+  }
+  .trait2{
+    width: 1110px;
+    margin-top: 300px;
+  }
+  .competence{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+  }
+  .spanP{
+    font-size: 18px;
+    margin-right: 250px;
+  }
+
   .Adam:hover{
     color: rgb(78, 225, 160);                         
   }
@@ -269,4 +409,7 @@ a{
   a:hover{
     color: rgb(78, 225, 160);                           
   }
-}
+  button:hover{
+    color: rgb(78, 225, 160);                           
+  }
+} 
